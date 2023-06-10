@@ -1,13 +1,16 @@
 #%pip install pyinstaller
-%pip install cx_Freeze
+#%pip install cx_Freeze
+# issues with the building 
 
 
-from cx_Freeze import setup, Executable
+
+import cx_freeze
 
 setup(
     name="kl",
     version="1.0",
     description="Simple Keylogger",
-    executables=[Executable("/Users/georgespieker/Documents/GitHub/Project_One/keylogger_game.py.py")],
+    executables=[Executable('keylogger_game.py')],
+
 )
 

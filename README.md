@@ -9,7 +9,7 @@ This project is to research how keyloggers work and which ways they can be intro
 ### Objectives
 - Building and analyzing a hardware (USB) keyloggers.
 - Examine the potential risks associated with keyloggers. 
-- Evaluate existing detection techniques for identifying keyloggers on Windows.
+- Examine existing detection techniques for identifying keyloggers on Windows.
 
 ### Methodology 
 We we will build and analyze a keylogger. As well as review literature on the matter.

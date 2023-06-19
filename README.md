@@ -10,6 +10,7 @@ This project is to research how keyloggers work and which ways they can be intro
 - Building and analyzing a hardware (USB) keyloggers.
 - Examine the potential risks associated with keyloggers. 
 - Examine existing detection techniques for identifying keyloggers on Windows.
+- Examine measures for mitigation.
 
 ### Methodology 
 We we will build and analyze a keylogger. As well as review literature on the matter.

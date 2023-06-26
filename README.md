@@ -7,10 +7,20 @@ This project is to research how keyloggers work and which ways they can be intro
 
 
 ### Objectives
-- Building and analyzing a hardware (USB) keyloggers.
-- Examine the potential risks associated with keyloggers. 
-- Examine existing detection techniques for identifying keyloggers on Windows.
-- Examine measures for mitigation.
+- Building and analyzing a hardware (USB) keyloggers. (George)
+-- We will build Keyloggers with different libraries for Key input.
+-- Analyze the way they are setup.
+-- Review the code.
+- Examine the potential risks associated with keyloggers. (Sabrina)
+-- Confidentiality.
+-- Integrity.
+-- Availability.
+- Examine existing detection techniques for identifying keyloggers.(Richard)
+-- Examine the hash values of keyloggers and how they trigger an IDS.
+-- Examine which libraries are flagged by IDS and why.
+- Examine measures for mitigation. (Cedric)
+-- IDS (SecOps)
+-- ISMS (Security Processes)
 
 ### Methodology 
 We we will build and analyze a keylogger. As well as review literature on the matter.

